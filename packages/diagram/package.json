@@ -1,6 +1,6 @@
 {
   "name": "@likec4/diagram",
-  "version": "1.29.0",
+  "version": "1.30.0",
   "license": "MIT",
   "bugs": "https://github.com/likec4/likec4/issues",
   "homepage": "https://likec4.dev",
@@ -40,7 +40,7 @@
     "./package.json": "./package.json",
     "./src/*": "./src/*"
   },
-  "packageManager": "pnpm@10.8.1",
+  "packageManager": "pnpm@10.9.0",
   "scripts": {
     "generate": "panda codegen",
     "typecheck": "tsc --build --verbose",

@@ -1,6 +1,6 @@
 {
   "name": "likec4",
-  "version": "1.29.0",
+  "version": "1.30.0",
   "license": "MIT",
   "homepage": "https://likec4.dev",
   "author": "Denis Davydkov <denis@davydkov.com>",
@@ -19,7 +19,7 @@
     "graph"
   ],
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=20.19.1"
   },
   "engineStrict": true,
   "bugs": "https://github.com/likec4/likec4/issues",
@@ -99,6 +99,7 @@
     "dev:example-cloud": "pnpm cli:serve ../../examples/cloud-system",
     "dev:failed": "pnpm cli:serve ../../examples/failed",
     "dev:example-dev": "pnpm cli:serve ../../examples/diagrams-dev/likec4",
+    "dev:examples": "pnpm cli:serve ../../examples",
     "cli": "tsx --conditions=sources src/cli/index.ts",
     "cli:serve": "tsx watch --conditions=sources src/cli/index.ts serve",
     "cli:build": "pnpm cli build -o dev/dist dev",
@@ -168,7 +169,7 @@
     "get-port": "^7.1.0",
     "html-to-image": "^1.11.13",
     "json5": "catalog:utils",
-    "ky": "^1.8.0",
+    "ky": "^1.8.1",
     "langium": "catalog:langium",
     "merge-error-cause": "^5.0.2",
     "mkdirp": "^3.0.1",
@@ -176,7 +177,7 @@
     "nano-spawn": "^0.2.0",
     "nanostores": "catalog:react",
     "npm-run-all2": "^7.0.1",
-    "p-limit": "^6.2.0",
+    "p-limit": "catalog:utils",
     "package-manager-detector": "catalog:utils",
     "package-up": "^5.0.0",
     "picomatch": "catalog:utils",
@@ -185,7 +186,7 @@
     "prop-types": "^15.8.1",
     "react-dom": "catalog:react",
     "react-error-boundary": "catalog:react",
-    "react-resizable-panels": "^2.1.7",
+    "react-resizable-panels": "^2.1.8",
     "react-shadow": "^20.6.0",
     "react": "catalog:react",
     "remeda": "catalog:utils",
@@ -200,7 +201,7 @@
     "ufo": "catalog:utils",
     "unbuild": "catalog:",
     "vite-plugin-dts": "catalog:vite",
-    "vite-plugin-inspect": "^11.0.0",
+    "vite-plugin-inspect": "^11.0.1",
     "vite-plugin-singlefile": "^2.2.0",
     "vitest": "catalog:vitest",
     "vscode-jsonrpc": "catalog:vscode",
@@ -211,5 +212,5 @@
     "wireit": "catalog:",
     "yargs": "17.7.2"
   },
-  "packageManager": "pnpm@10.8.1"
+  "packageManager": "pnpm@10.9.0"
 }
